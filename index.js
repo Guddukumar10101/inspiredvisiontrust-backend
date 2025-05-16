@@ -6,7 +6,7 @@ import dotenv from 'dotenv'
 import {ivcoachingdbconnection,sequelize} from './config/dbconfig.js'
 import { StudentAdmisionModel } from'./models/StudentAdmisionModel.js'
 import { router } from './routes/rout.js'
-import {} from 'cors'
+
 
 dotenv.config()
 const app=express()
