@@ -3,11 +3,17 @@ import dotenv from 'dotenv'
 import { Sequelize,DataTypes, } from 'sequelize'
 dotenv.config()
 
+const INSPIRED_VISION_DATABASE="u681718804_Ivworlds_db"
+const USER="u681718804_Guddu"
+const HOST="193.203.184.29"
+const PASSWORD="Guddu@950258"
+const PORT=8081
+
 const sequelize= new Sequelize(
-  process.env.INSPIRED_VISION_DATABASE,
-  process.env.USER,
-  process.env.PASSWORD,{
-      host:process.env.HOST,
+  INSPIRED_VISION_DATABASE,
+  USER,
+  PASSWORD,{
+      host:HOST,
       dialect:'mysql'}
   )
 

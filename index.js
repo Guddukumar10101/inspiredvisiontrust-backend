@@ -19,7 +19,7 @@ app.use(cors())
 
 app.use("/",router)
 
-app.listen(process.env.PORT,()=>{
+app.listen(8081,()=>{
   console.log(`server is listining on port ${process.env.PORT}`)
   ivcoachingdbconnection();
   StudentAdmisionModel.sync({})
