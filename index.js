@@ -19,8 +19,8 @@ app.use(cors())
 
 app.use("https://ivworlds.com/",router)
 
-app.listen(8081,()=>{
-  console.log(`server is listining on port ${process.env.PORT}`)
+app.listen(()=>{
+  console.log(`server is listining on port`)
   ivcoachingdbconnection();
   StudentAdmisionModel.sync({})
 })
