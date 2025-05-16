@@ -1,7 +1,7 @@
 import { where } from "sequelize";
 import { StudentAdmisionModel } from "../models/StudentAdmisionModel.js";
 import { StudentAdmisionSchema } from "../middleware/StudentAdmisionSchema.js";
-import brcrypt from 'bcrypt'
+import brcrypt from 'bcryptjs'
 
 const AdminLogin=async (req,res)=>{
     try {
