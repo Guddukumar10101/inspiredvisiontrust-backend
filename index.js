@@ -17,7 +17,7 @@ app.use(cors())
 //   }
 
 
-app.use("https://ivworlds.com/",router)
+app.use("/",router)
 
 app.listen(()=>{
   console.log(`server is listining on port`)
