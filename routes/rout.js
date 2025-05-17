@@ -6,5 +6,4 @@ router
 .post('/admision',insertAdmisionData)
 .get('/AllStudents',getAdmisionData)
 .get('/StudentAdmisionDataById/:id',getAdmisionDataById)
-.get('',homepage)
 export {router}
