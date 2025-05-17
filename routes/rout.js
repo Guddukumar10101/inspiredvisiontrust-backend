@@ -1,5 +1,5 @@
 import express from 'express'
-import {getAdmisionData, getAdmisionDataById, homepage, insertAdmisionData} from "../controllers/StudentAdmisionController.js"
+import {getAdmisionData, getAdmisionDataById,insertAdmisionData} from "../controllers/StudentAdmisionController.js"
 const router=express.Router()
 
 router

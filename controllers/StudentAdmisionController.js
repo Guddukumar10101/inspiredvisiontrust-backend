@@ -13,10 +13,6 @@ const AdminLogin=async (req,res)=>{
 }
 
 
-const homepage=(req,res)=>{
- res.status(200).json({message:"this is home page"})
-}
-
 
 const insertAdmisionData = async(req, res) => {
 
@@ -67,4 +63,4 @@ const updateAdmisionDataById=async(req,res)=>{
 }
 
 
-export { insertAdmisionData ,getAdmisionData,getAdmisionDataById,updateAdmisionDataById,homepage}
+export { insertAdmisionData ,getAdmisionData,getAdmisionDataById,updateAdmisionDataById}
