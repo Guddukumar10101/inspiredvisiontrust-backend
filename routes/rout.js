@@ -6,4 +6,7 @@ router
 .post('/admision',insertAdmisionData)
 .get('/AllStudents',getAdmisionData)
 .get('/StudentAdmisionDataById/:id',getAdmisionDataById)
+.get('/',(req,res)=>{
+    res.send("Welcome to Student Admision API")
+})
 export {router}
